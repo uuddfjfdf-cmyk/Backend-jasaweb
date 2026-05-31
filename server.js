@@ -6,8 +6,8 @@ const app = express();
 
 // ── CORS ──
 const allowedOrigins = [
-  'https://jasadesign-admin.netlify.app',
-  'https://jasadesign0.netlify.app'
+  'https://jasadesign1-admin.netlify.app',
+  'https://jasadesign1.netlify.app'
 ];
 const corsOptions = {
   origin: function (origin, callback) {
