@@ -9,12 +9,18 @@ const allowedOrigins = [
   'https://jasadesign-admin.netlify.app',
   'https://jasadesign0.netlify.app'
 ];
-app.use(cors({
+const corsOptions = {
   origin: function (origin, callback) {
     if (!origin || allowedOrigins.includes(origin)) callback(null, true);
     else callback(new Error('Akses diblokir oleh CORS'));
-  }
-}));
+  },
+  methods: ['GET', 'POST', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: false
+};
+// ✅ Handle OPTIONS preflight — wajib untuk browser modern
+app.options('*', cors(corsOptions));
+app.use(cors(corsOptions));
 app.use(express.json({ limit: '20mb' }));
 
 // ── MONGODB CONNECTION ──
