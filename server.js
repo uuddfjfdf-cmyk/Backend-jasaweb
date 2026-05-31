@@ -2,16 +2,14 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
-// Masukkan URL kedua frontend lu di sini
+// Whitelist URL frontend Netlify untuk Production
 const allowedOrigins = [
-  'http://localhost:3000', // Frontend 1 (misal: React/Next.js)
-  'http://localhost:5173'  // Frontend 2 (misal: Vue/Vite)
+  'https://jasadesign-admin.netlify.app',
+  'https://jasadesign0.netlify.app'
 ];
 
-// Konfigurasi CORS untuk 2 frontend
 app.use(cors({
   origin: function (origin, callback) {
-    // Izinkan request tanpa origin (seperti dari Postman) atau yang ada di allowedOrigins
     if (!origin || allowedOrigins.includes(origin)) {
       callback(null, true);
     } else {
@@ -20,19 +18,23 @@ app.use(cors({
   }
 }));
 
-// Middleware untuk memparsing JSON body
 app.use(express.json());
 
-// Contoh Endpoint
+// Endpoint Root (Biar pas buka URL Railway nggak "Cannot GET /")
+app.get('/', (req, res) => {
+  res.json({ status: 'success', message: 'Backend up and running di Root!' });
+});
+
+// Endpoint API Status (Sesuai kode lu)
 app.get('/api/status', (req, res) => {
   res.json({ 
     status: 'success', 
-    message: 'Backend berjalan dan siap melayani kedua frontend!' 
+    message: 'Backend berjalan dan siap melayani kedua frontend Netlify!' 
   });
 });
 
-// Jalankan server
-const PORT = 8080;
+// Konfigurasi Port Dinamis untuk Railway
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
-  console.log(`Backend jalan di http://localhost:${PORT}`);
+  console.log(`Server jalan di port ${PORT}`);
 });
