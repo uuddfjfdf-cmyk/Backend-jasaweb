@@ -1,0 +1,298 @@
+2026-05-31T05:18:31.509706752Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-05-31T05:18:31.509723482Z [inf]  
+2026-05-31T05:18:31.509727322Z [err]  
+2026-05-31T05:18:31.509730422Z [inf]  > backend-jasadesign@1.0.0 start
+2026-05-31T05:18:31.509735172Z [inf]  > node server.js
+2026-05-31T05:18:31.509741622Z [inf]  
+2026-05-31T05:18:31.509742072Z [err]  Error: Cannot find module 'mongoose'
+2026-05-31T05:18:31.509749752Z [err]  node:internal/modules/cjs/loader:1433
+2026-05-31T05:18:31.509751782Z [err]  Require stack:
+2026-05-31T05:18:31.509756972Z [err]    throw err;
+2026-05-31T05:18:31.509759072Z [err]  - /app/server.js
+2026-05-31T05:18:31.509767681Z [err]    ^
+2026-05-31T05:18:31.509769521Z [err]      at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)
+2026-05-31T05:18:31.509774281Z [err]      at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+2026-05-31T05:18:31.509859180Z [err]      at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+2026-05-31T05:18:31.509868110Z [err]      at Function._load (node:internal/modules/cjs/loader:1216:25)
+2026-05-31T05:18:31.509868200Z [err]      at require (node:internal/modules/helpers:147:16)
+2026-05-31T05:18:31.509874160Z [err]      at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+2026-05-31T05:18:31.509900270Z [err]      at Object.<anonymous> (/app/server.js:3:18)
+2026-05-31T05:18:31.509901060Z [err]      at Module.require (node:internal/modules/cjs/loader:1527:12)
+2026-05-31T05:18:31.509907840Z [err]      at Module._compile (node:internal/modules/cjs/loader:1781:14)
+2026-05-31T05:18:31.509912550Z [err]      at Object..js (node:internal/modules/cjs/loader:1913:10) {
+2026-05-31T05:18:31.509918959Z [err]    code: 'MODULE_NOT_FOUND',
+2026-05-31T05:18:31.509923269Z [err]    requireStack: [ '/app/server.js' ]
+2026-05-31T05:18:31.509927309Z [err]  }
+2026-05-31T05:18:31.509930739Z [err]  
+2026-05-31T05:18:31.509933939Z [err]  Node.js v22.22.3
+2026-05-31T05:18:31.509937539Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-05-31T05:18:31.509939989Z [inf]  
+2026-05-31T05:18:31.509942989Z [inf]  > backend-jasadesign@1.0.0 start
+2026-05-31T05:18:31.509945549Z [inf]  > node server.js
+2026-05-31T05:18:31.509948059Z [inf]  
+2026-05-31T05:18:31.543414088Z [err]      at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+2026-05-31T05:18:31.543419308Z [err]      at Module.require (node:internal/modules/cjs/loader:1527:12)
+2026-05-31T05:18:31.543442248Z [err]  node:internal/modules/cjs/loader:1433
+2026-05-31T05:18:31.543451978Z [err]    throw err;
+2026-05-31T05:18:31.543457158Z [err]    ^
+2026-05-31T05:18:31.543462278Z [err]  
+2026-05-31T05:18:31.543467278Z [err]  Error: Cannot find module 'mongoose'
+2026-05-31T05:18:31.543472177Z [err]  Require stack:
+2026-05-31T05:18:31.543479257Z [err]  - /app/server.js
+2026-05-31T05:18:31.543484207Z [err]      at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)
+2026-05-31T05:18:31.543492317Z [err]      at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+2026-05-31T05:18:31.543499597Z [err]      at require (node:internal/modules/helpers:147:16)
+2026-05-31T05:18:31.543501737Z [err]      at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+2026-05-31T05:18:31.543509667Z [err]      at Object.<anonymous> (/app/server.js:3:18)
+2026-05-31T05:18:31.543511687Z [err]      at Function._load (node:internal/modules/cjs/loader:1216:25)
+2026-05-31T05:18:31.543516187Z [err]      at Module._compile (node:internal/modules/cjs/loader:1781:14)
+2026-05-31T05:18:31.543520577Z [err]      at Object..js (node:internal/modules/cjs/loader:1913:10) {
+2026-05-31T05:18:31.543523667Z [err]    code: 'MODULE_NOT_FOUND',
+2026-05-31T05:18:31.543526907Z [err]    requireStack: [ '/app/server.js' ]
+2026-05-31T05:18:31.543530707Z [err]  }
+2026-05-31T05:18:31.543534317Z [err]  
+2026-05-31T05:18:31.543537047Z [err]  Node.js v22.22.3
+2026-05-31T05:18:31.928237361Z [inf]  Starting Container
+2026-05-31T05:18:32.052577962Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-05-31T05:18:32.061314801Z [inf]  
+2026-05-31T05:18:32.061321531Z [inf]  > backend-jasadesign@1.0.0 start
+2026-05-31T05:18:32.061325541Z [inf]  > node server.js
+2026-05-31T05:18:32.061328971Z [inf]  
+2026-05-31T05:18:32.129850268Z [err]    requireStack: [ '/app/server.js' ]
+2026-05-31T05:18:32.129850618Z [err]  node:internal/modules/cjs/loader:1433
+2026-05-31T05:18:32.129856218Z [err]    throw err;
+2026-05-31T05:18:32.129862418Z [err]    ^
+2026-05-31T05:18:32.129864438Z [err]  }
+2026-05-31T05:18:32.129868438Z [err]  
+2026-05-31T05:18:32.129873158Z [err]  
+2026-05-31T05:18:32.129875388Z [err]  Error: Cannot find module 'mongoose'
+2026-05-31T05:18:32.129881678Z [err]  Node.js v22.22.3
+2026-05-31T05:18:32.129883668Z [err]  Require stack:
+2026-05-31T05:18:32.129888368Z [err]  - /app/server.js
+2026-05-31T05:18:32.129892118Z [err]      at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)
+2026-05-31T05:18:32.129896088Z [err]      at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+2026-05-31T05:18:32.129899728Z [err]      at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+2026-05-31T05:18:32.129903518Z [err]      at Function._load (node:internal/modules/cjs/loader:1216:25)
+2026-05-31T05:18:32.129908168Z [err]      at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+2026-05-31T05:18:32.129912418Z [err]      at Module.require (node:internal/modules/cjs/loader:1527:12)
+2026-05-31T05:18:32.129915988Z [err]      at require (node:internal/modules/helpers:147:16)
+2026-05-31T05:18:32.129919767Z [err]      at Object.<anonymous> (/app/server.js:3:18)
+2026-05-31T05:18:32.129923397Z [err]      at Module._compile (node:internal/modules/cjs/loader:1781:14)
+2026-05-31T05:18:32.129927417Z [err]      at Object..js (node:internal/modules/cjs/loader:1913:10) {
+2026-05-31T05:18:32.129931007Z [err]    code: 'MODULE_NOT_FOUND',
+2026-05-31T05:18:32.549635386Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-05-31T05:18:32.567705699Z [inf]  
+2026-05-31T05:18:32.567712919Z [inf]  > backend-jasadesign@1.0.0 start
+2026-05-31T05:18:32.567717839Z [inf]  > node server.js
+2026-05-31T05:18:32.567721429Z [inf]  
+2026-05-31T05:18:32.636669021Z [err]  node:internal/modules/cjs/loader:1433
+2026-05-31T05:18:32.636676311Z [err]    throw err;
+2026-05-31T05:18:32.636676691Z [err]  
+2026-05-31T05:18:32.636681611Z [err]    ^
+2026-05-31T05:18:32.636685111Z [err]  
+2026-05-31T05:18:32.636691271Z [err]  Error: Cannot find module 'mongoose'
+2026-05-31T05:18:32.636692031Z [err]  Node.js v22.22.3
+2026-05-31T05:18:32.636695591Z [err]  Require stack:
+2026-05-31T05:18:32.636700571Z [err]  - /app/server.js
+2026-05-31T05:18:32.636703571Z [err]      at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)
+2026-05-31T05:18:32.636707281Z [err]      at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+2026-05-31T05:18:32.636710161Z [err]      at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+2026-05-31T05:18:32.636713201Z [err]      at Function._load (node:internal/modules/cjs/loader:1216:25)
+2026-05-31T05:18:32.636715930Z [err]      at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+2026-05-31T05:18:32.636719990Z [err]      at Module.require (node:internal/modules/cjs/loader:1527:12)
+2026-05-31T05:18:32.636722970Z [err]      at require (node:internal/modules/helpers:147:16)
+2026-05-31T05:18:32.636725950Z [err]      at Object.<anonymous> (/app/server.js:3:18)
+2026-05-31T05:18:32.636728680Z [err]      at Module._compile (node:internal/modules/cjs/loader:1781:14)
+2026-05-31T05:18:32.636731670Z [err]      at Object..js (node:internal/modules/cjs/loader:1913:10) {
+2026-05-31T05:18:32.636736330Z [err]    code: 'MODULE_NOT_FOUND',
+2026-05-31T05:18:32.636739110Z [err]    requireStack: [ '/app/server.js' ]
+2026-05-31T05:18:32.636741840Z [err]  }
+2026-05-31T05:18:33.128398513Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-05-31T05:18:33.128401573Z [inf]  
+2026-05-31T05:18:33.128405003Z [inf]  > backend-jasadesign@1.0.0 start
+2026-05-31T05:18:33.128407823Z [inf]  > node server.js
+2026-05-31T05:18:33.128410733Z [inf]  
+2026-05-31T05:18:33.163183665Z [err]      at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+2026-05-31T05:18:33.163186015Z [err]  node:internal/modules/cjs/loader:1433
+2026-05-31T05:18:33.163188575Z [err]      at Module.require (node:internal/modules/cjs/loader:1527:12)
+2026-05-31T05:18:33.163190535Z [err]    throw err;
+2026-05-31T05:18:33.163192455Z [err]      at require (node:internal/modules/helpers:147:16)
+2026-05-31T05:18:33.163193915Z [err]    ^
+2026-05-31T05:18:33.163195275Z [err]      at Object.<anonymous> (/app/server.js:3:18)
+2026-05-31T05:18:33.163197015Z [err]  
+2026-05-31T05:18:33.163198345Z [err]      at Module._compile (node:internal/modules/cjs/loader:1781:14)
+2026-05-31T05:18:33.163200185Z [err]  Error: Cannot find module 'mongoose'
+2026-05-31T05:18:33.163201645Z [err]      at Object..js (node:internal/modules/cjs/loader:1913:10) {
+2026-05-31T05:18:33.163203265Z [err]  Require stack:
+2026-05-31T05:18:33.163204905Z [err]    code: 'MODULE_NOT_FOUND',
+2026-05-31T05:18:33.163206575Z [err]  - /app/server.js
+2026-05-31T05:18:33.163207825Z [err]    requireStack: [ '/app/server.js' ]
+2026-05-31T05:18:33.163209675Z [err]      at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)
+2026-05-31T05:18:33.163211255Z [err]  }
+2026-05-31T05:18:33.163213025Z [err]      at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+2026-05-31T05:18:33.163215935Z [err]      at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+2026-05-31T05:18:33.163218835Z [err]      at Function._load (node:internal/modules/cjs/loader:1216:25)
+2026-05-31T05:18:33.163263734Z [err]  
+2026-05-31T05:18:33.163267364Z [err]  Node.js v22.22.3
+2026-05-31T05:18:33.653630573Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-05-31T05:18:33.653635623Z [inf]  
+2026-05-31T05:18:33.653640302Z [inf]  > backend-jasadesign@1.0.0 start
+2026-05-31T05:18:33.653645622Z [inf]  > node server.js
+2026-05-31T05:18:33.653650752Z [inf]  
+2026-05-31T05:18:33.689519871Z [err]      at Function._load (node:internal/modules/cjs/loader:1216:25)
+2026-05-31T05:18:33.689525751Z [err]      at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+2026-05-31T05:18:33.689526941Z [err]  node:internal/modules/cjs/loader:1433
+2026-05-31T05:18:33.689529411Z [err]      at Module.require (node:internal/modules/cjs/loader:1527:12)
+2026-05-31T05:18:33.689530841Z [err]    throw err;
+2026-05-31T05:18:33.689532591Z [err]      at require (node:internal/modules/helpers:147:16)
+2026-05-31T05:18:33.689533531Z [err]    ^
+2026-05-31T05:18:33.689535471Z [err]      at Object.<anonymous> (/app/server.js:3:18)
+2026-05-31T05:18:33.689536151Z [err]  
+2026-05-31T05:18:33.689538771Z [err]      at Module._compile (node:internal/modules/cjs/loader:1781:14)
+2026-05-31T05:18:33.689540051Z [err]  Error: Cannot find module 'mongoose'
+2026-05-31T05:18:33.689541791Z [err]      at Object..js (node:internal/modules/cjs/loader:1913:10) {
+2026-05-31T05:18:33.689542721Z [err]  Require stack:
+2026-05-31T05:18:33.689545211Z [err]    code: 'MODULE_NOT_FOUND',
+2026-05-31T05:18:33.689545381Z [err]  - /app/server.js
+2026-05-31T05:18:33.689547731Z [err]      at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)
+2026-05-31T05:18:33.689548021Z [err]    requireStack: [ '/app/server.js' ]
+2026-05-31T05:18:33.689550121Z [err]      at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+2026-05-31T05:18:33.689550631Z [err]  }
+2026-05-31T05:18:33.689553101Z [err]      at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+2026-05-31T05:18:33.689553561Z [err]  
+2026-05-31T05:18:33.689556221Z [err]  Node.js v22.22.3
+2026-05-31T05:18:34.176398684Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-05-31T05:18:34.176403194Z [inf]  
+2026-05-31T05:18:34.176407324Z [inf]  > backend-jasadesign@1.0.0 start
+2026-05-31T05:18:34.176411194Z [inf]  > node server.js
+2026-05-31T05:18:34.176416174Z [inf]  
+2026-05-31T05:18:34.211772308Z [err]  node:internal/modules/cjs/loader:1433
+2026-05-31T05:18:34.211777458Z [err]    throw err;
+2026-05-31T05:18:34.211780358Z [err]    ^
+2026-05-31T05:18:34.211782998Z [err]  
+2026-05-31T05:18:34.211785678Z [err]  Error: Cannot find module 'mongoose'
+2026-05-31T05:18:34.211788528Z [err]  Require stack:
+2026-05-31T05:18:34.211790948Z [err]  - /app/server.js
+2026-05-31T05:18:34.211793508Z [err]      at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)
+2026-05-31T05:18:34.211795728Z [err]      at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+2026-05-31T05:18:34.211798228Z [err]      at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+2026-05-31T05:18:34.211800888Z [err]      at Function._load (node:internal/modules/cjs/loader:1216:25)
+2026-05-31T05:18:34.211803518Z [err]      at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+2026-05-31T05:18:34.211805808Z [err]      at Module.require (node:internal/modules/cjs/loader:1527:12)
+2026-05-31T05:18:34.211808368Z [err]      at require (node:internal/modules/helpers:147:16)
+2026-05-31T05:18:34.211810638Z [err]      at Object.<anonymous> (/app/server.js:3:18)
+2026-05-31T05:18:34.211813048Z [err]      at Module._compile (node:internal/modules/cjs/loader:1781:14)
+2026-05-31T05:18:34.211816288Z [err]      at Object..js (node:internal/modules/cjs/loader:1913:10) {
+2026-05-31T05:18:34.211819187Z [err]    code: 'MODULE_NOT_FOUND',
+2026-05-31T05:18:34.211821807Z [err]    requireStack: [ '/app/server.js' ]
+2026-05-31T05:18:34.211824087Z [err]  }
+2026-05-31T05:18:34.211826677Z [err]  
+2026-05-31T05:18:34.211829037Z [err]  Node.js v22.22.3
+2026-05-31T05:18:34.626391370Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-05-31T05:18:34.626396080Z [inf]  
+2026-05-31T05:18:34.626399980Z [inf]  > backend-jasadesign@1.0.0 start
+2026-05-31T05:18:34.626402610Z [inf]  > node server.js
+2026-05-31T05:18:34.626405120Z [inf]  
+2026-05-31T05:18:34.686649622Z [err]  node:internal/modules/cjs/loader:1433
+2026-05-31T05:18:34.686650122Z [err]      at require (node:internal/modules/helpers:147:16)
+2026-05-31T05:18:34.686655842Z [err]      at Object.<anonymous> (/app/server.js:3:18)
+2026-05-31T05:18:34.686655852Z [err]    throw err;
+2026-05-31T05:18:34.686659242Z [err]    ^
+2026-05-31T05:18:34.686660652Z [err]      at Module._compile (node:internal/modules/cjs/loader:1781:14)
+2026-05-31T05:18:34.686662902Z [err]  
+2026-05-31T05:18:34.686664502Z [err]      at Object..js (node:internal/modules/cjs/loader:1913:10) {
+2026-05-31T05:18:34.686665882Z [err]  Error: Cannot find module 'mongoose'
+2026-05-31T05:18:34.686668302Z [err]    code: 'MODULE_NOT_FOUND',
+2026-05-31T05:18:34.686669202Z [err]  Require stack:
+2026-05-31T05:18:34.686672132Z [err]  - /app/server.js
+2026-05-31T05:18:34.686672312Z [err]    requireStack: [ '/app/server.js' ]
+2026-05-31T05:18:34.686674642Z [err]      at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)
+2026-05-31T05:18:34.686676022Z [err]  }
+2026-05-31T05:18:34.686678452Z [err]      at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+2026-05-31T05:18:34.686680032Z [err]  
+2026-05-31T05:18:34.686683202Z [err]      at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+2026-05-31T05:18:34.686683712Z [err]  Node.js v22.22.3
+2026-05-31T05:18:34.686686332Z [err]      at Function._load (node:internal/modules/cjs/loader:1216:25)
+2026-05-31T05:18:34.686689042Z [err]      at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+2026-05-31T05:18:34.686692302Z [err]      at Module.require (node:internal/modules/cjs/loader:1527:12)
+2026-05-31T05:18:35.128689369Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-05-31T05:18:35.128693569Z [inf]  
+2026-05-31T05:18:35.128697459Z [inf]  > backend-jasadesign@1.0.0 start
+2026-05-31T05:18:35.128700809Z [inf]  > node server.js
+2026-05-31T05:18:35.128703459Z [inf]  
+2026-05-31T05:18:35.198206584Z [err]  node:internal/modules/cjs/loader:1433
+2026-05-31T05:18:35.198210604Z [err]    throw err;
+2026-05-31T05:18:35.198214874Z [err]    ^
+2026-05-31T05:18:35.198219284Z [err]  
+2026-05-31T05:18:35.198222944Z [err]  Error: Cannot find module 'mongoose'
+2026-05-31T05:18:35.198226783Z [err]  Require stack:
+2026-05-31T05:18:35.198229843Z [err]  - /app/server.js
+2026-05-31T05:18:35.198233563Z [err]      at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)
+2026-05-31T05:18:35.198236843Z [err]      at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+2026-05-31T05:18:35.198240103Z [err]      at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+2026-05-31T05:18:35.198243093Z [err]      at Function._load (node:internal/modules/cjs/loader:1216:25)
+2026-05-31T05:18:35.198245933Z [err]      at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+2026-05-31T05:18:35.198249263Z [err]      at Module.require (node:internal/modules/cjs/loader:1527:12)
+2026-05-31T05:18:35.198252503Z [err]      at require (node:internal/modules/helpers:147:16)
+2026-05-31T05:18:35.198255463Z [err]      at Object.<anonymous> (/app/server.js:3:18)
+2026-05-31T05:18:35.198258953Z [err]      at Module._compile (node:internal/modules/cjs/loader:1781:14)
+2026-05-31T05:18:35.198263703Z [err]      at Object..js (node:internal/modules/cjs/loader:1913:10) {
+2026-05-31T05:18:35.198267113Z [err]    code: 'MODULE_NOT_FOUND',
+2026-05-31T05:18:35.198270223Z [err]    requireStack: [ '/app/server.js' ]
+2026-05-31T05:18:35.198273313Z [err]  }
+2026-05-31T05:18:35.198276773Z [err]  
+2026-05-31T05:18:35.198280573Z [err]  Node.js v22.22.3
+2026-05-31T05:18:35.610079710Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-05-31T05:18:35.610082990Z [inf]  
+2026-05-31T05:18:35.610085830Z [inf]  > backend-jasadesign@1.0.0 start
+2026-05-31T05:18:35.610088570Z [inf]  > node server.js
+2026-05-31T05:18:35.610090820Z [inf]  
+2026-05-31T05:18:35.666827255Z [err]  node:internal/modules/cjs/loader:1433
+2026-05-31T05:18:35.666832735Z [err]    throw err;
+2026-05-31T05:18:35.666835835Z [err]    ^
+2026-05-31T05:18:35.666838925Z [err]  
+2026-05-31T05:18:35.666841715Z [err]  Error: Cannot find module 'mongoose'
+2026-05-31T05:18:35.666856335Z [err]  Require stack:
+2026-05-31T05:18:35.666858915Z [err]  - /app/server.js
+2026-05-31T05:18:35.666861995Z [err]      at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)
+2026-05-31T05:18:35.666865724Z [err]      at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+2026-05-31T05:18:35.666868484Z [err]      at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+2026-05-31T05:18:35.666870724Z [err]      at Function._load (node:internal/modules/cjs/loader:1216:25)
+2026-05-31T05:18:35.666873044Z [err]      at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+2026-05-31T05:18:35.666875354Z [err]      at Module.require (node:internal/modules/cjs/loader:1527:12)
+2026-05-31T05:18:35.666877984Z [err]      at require (node:internal/modules/helpers:147:16)
+2026-05-31T05:18:35.666880874Z [err]      at Object.<anonymous> (/app/server.js:3:18)
+2026-05-31T05:18:35.666883324Z [err]      at Module._compile (node:internal/modules/cjs/loader:1781:14)
+2026-05-31T05:18:35.666886644Z [err]      at Object..js (node:internal/modules/cjs/loader:1913:10) {
+2026-05-31T05:18:35.666890354Z [err]    code: 'MODULE_NOT_FOUND',
+2026-05-31T05:18:35.666892764Z [err]    requireStack: [ '/app/server.js' ]
+2026-05-31T05:18:35.666898144Z [err]  }
+2026-05-31T05:18:35.666900734Z [err]  
+2026-05-31T05:18:35.666903154Z [err]  Node.js v22.22.3
+2026-05-31T05:18:36.124782472Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-05-31T05:18:36.128502165Z [inf]  
+2026-05-31T05:18:36.128505445Z [inf]  > backend-jasadesign@1.0.0 start
+2026-05-31T05:18:36.128508075Z [inf]  > node server.js
+2026-05-31T05:18:36.128517985Z [inf]  
+2026-05-31T05:18:36.198420794Z [err]  node:internal/modules/cjs/loader:1433
+2026-05-31T05:18:36.198425964Z [err]    throw err;
+2026-05-31T05:18:36.198430214Z [err]    ^
+2026-05-31T05:18:36.198436614Z [err]  
+2026-05-31T05:18:36.198442584Z [err]  Error: Cannot find module 'mongoose'
+2026-05-31T05:18:36.198449344Z [err]  Require stack:
+2026-05-31T05:18:36.198452824Z [err]  - /app/server.js
+2026-05-31T05:18:36.198456244Z [err]      at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)
+2026-05-31T05:18:36.198460224Z [err]      at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+2026-05-31T05:18:36.198463734Z [err]      at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+2026-05-31T05:18:36.198467494Z [err]      at Function._load (node:internal/modules/cjs/loader:1216:25)
+2026-05-31T05:18:36.198471284Z [err]      at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+2026-05-31T05:18:36.198474714Z [err]      at Module.require (node:internal/modules/cjs/loader:1527:12)
+2026-05-31T05:18:36.198478154Z [err]      at require (node:internal/modules/helpers:147:16)
+2026-05-31T05:18:36.198481674Z [err]      at Object.<anonymous> (/app/server.js:3:18)
+2026-05-31T05:18:36.198485044Z [err]      at Module._compile (node:internal/modules/cjs/loader:1781:14)
+2026-05-31T05:18:36.198488844Z [err]      at Object..js (node:internal/modules/cjs/loader:1913:10) {
+2026-05-31T05:18:36.198493443Z [err]    code: 'MODULE_NOT_FOUND',
+2026-05-31T05:18:36.198496953Z [err]    requireStack: [ '/app/server.js' ]
+2026-05-31T05:18:36.198500423Z [err]  }
+2026-05-31T05:18:36.198504253Z [err]  
+2026-05-31T05:18:36.198509073Z [err]  Node.js v22.22.3
