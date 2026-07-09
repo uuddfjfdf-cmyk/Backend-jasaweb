@@ -83,6 +83,27 @@ app.get('/api/status', async (req, res) => {
 });
 
 // ────────────────────────────────────────────
+// ── ADMIN LOGIN API ──
+// Password admin disimpan sebagai Environment Variable di Railway
+// dengan Key: ADMIN_PW — BUKAN ditulis di kode frontend.
+// ────────────────────────────────────────────
+app.post('/api/login', (req, res) => {
+  try {
+    const { password } = req.body;
+    if (!password) {
+      return res.status(400).json({ success: false, message: 'Password tidak boleh kosong' });
+    }
+    if (password === process.env.ADMIN_PW) {
+      res.json({ success: true });
+    } else {
+      res.json({ success: false, message: 'Password salah' });
+    }
+  } catch (e) {
+    res.status(500).json({ success: false, message: e.message });
+  }
+});
+
+// ────────────────────────────────────────────
 // ── TEXTS API ──
 // ────────────────────────────────────────────
 
